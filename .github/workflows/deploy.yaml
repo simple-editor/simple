@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: BackendApplication
-          path: build/libs/simpleproject-0.0.1-SNAPSHOT.jar
+          path: ./simpleproject/build/libs/simpleproject-0.0.1-SNAPSHOT.jar
 
   deploy:
     runs-on: self-hosted
